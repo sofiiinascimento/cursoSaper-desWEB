@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ControleDatas/ControleDatas.iml" filepath="$PROJECT_DIR$/ControleDatas/ControleDatas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstProject/FirstProject.iml" filepath="$PROJECT_DIR$/FirstProject/FirstProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LacodeRepeticao/LacodeRepeticao.iml" filepath="$PROJECT_DIR$/LacodeRepeticao/LacodeRepeticao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Metodos/Metodos.iml" filepath="$PROJECT_DIR$/Metodos/Metodos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vendas/Vendas.iml" filepath="$PROJECT_DIR$/Vendas/Vendas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cursoSaper-desWEB.iml" filepath="$PROJECT_DIR$/.idea/cursoSaper-desWEB.iml" />
+    </modules>
+  </component>
+</project>
