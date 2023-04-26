@@ -11,23 +11,22 @@ public class Main {
         double valorVendas;
         double totalVendasLoja = 0;
         double maiorVenda = 0;
+        int melhorVendedor = 0;
 
         for (int i=0; i < quantidadeVendedores; i++){
             System.out.printf("Digite o valor das vendas do %dº vendedor(a):%n", i+1);
             valorVendas = input.nextDouble();
             totalVendasLoja += valorVendas;
 
-            maiorVenda = valorVendas;
-
             if (valorVendas > maiorVenda){
                 maiorVenda = valorVendas;
+                melhorVendedor = i + 1;
             }
         }
 
         System.out.printf("Valor total de vendas da loja: %.2f%n", totalVendasLoja);
         System.out.printf("Média de vendas dos vendedores: %.2f%n", totalVendasLoja/quantidadeVendedores);
-        System.out.printf("Maior valor de vendas entre os vendedores: %.2f", maiorVenda);
-    }
+        System.out.printf("Maior valor de vendas entre os vendedores: %.2f%n", maiorVenda);
+        System.out.printf("Vendedor que mais vendeu: %dº", melhorVendedor);
         }
     }
-}
